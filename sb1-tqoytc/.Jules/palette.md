@@ -1,0 +1,3 @@
+## 2023-10-31 - [Adding loading state to form]
+**Learning:** For async form submissions, always provide a visual loading indicator (e.g., spinner, "Sending...") and disable the submit button to prevent duplicate submissions and provide immediate feedback. Use existing UI patterns (like `lucide-react` icons). Ensure required form fields are explicitly marked visually with an asterisk so users don't have to guess what fields to fill out.
+**Action:** Always check for missing loading states on async actions and ensure required fields are clearly labelled.
