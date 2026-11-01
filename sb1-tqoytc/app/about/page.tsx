@@ -8,10 +8,10 @@ export default function About() {
       <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
         <div>
           <p className="mb-4">
-            At ABAYA, we celebrate the beauty of modest fashion for Muslim women. Our passion goes beyond creating stunning abayas – we're dedicated to empowering women through elegant, comfortable, and culturally respectful clothing.
+            At ABAYA, we celebrate the beauty of modest fashion for Muslim women. Our passion goes beyond creating stunning abayas – we&apos;re dedicated to empowering women through elegant, comfortable, and culturally respectful clothing.
           </p>
           <p className="mb-4">
-            Founded with a vision to provide high-quality Muslim women's clothing, our team combines traditional Islamic values with contemporary design. We understand that each woman's style is unique, and we're committed to offering a diverse range of abayas, hijabs, and modest wear to suit every preference.
+            Founded with a vision to provide high-quality Muslim women&apos;s clothing, our team combines traditional Islamic values with contemporary design. We understand that each woman&apos;s style is unique, and we&apos;re committed to offering a diverse range of abayas, hijabs, and modest wear to suit every preference.
           </p>
           <p>
             Our eco-friendly practices ensure that we care for both our customers and the environment. We use sustainable materials and ethical production methods to create clothing that you can feel good about wearing.
@@ -48,7 +48,7 @@ export default function About() {
       
       <section className="text-center">
         <h2 className="text-3xl font-semibold mb-4">Join the ABAYA Family</h2>
-        <p className="mb-4">Experience the perfect blend of modesty and style. Your wardrobe deserves the best, and we're here to deliver nothing less.</p>
+        <p className="mb-4">Experience the perfect blend of modesty and style. Your wardrobe deserves the best, and we&apos;re here to deliver nothing less.</p>
       </section>
     </div>
   );
