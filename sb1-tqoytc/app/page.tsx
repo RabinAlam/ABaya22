@@ -7,10 +7,10 @@ export default function Home() {
     <div className="container mx-auto px-6 py-12">
       <section className="text-center mb-16">
         <h1 className="text-4xl font-bold mb-4">Welcome to ABAYA</h1>
-        <p className="text-xl mb-8">Exquisite Muslim Women's Clothing and Care Services</p>
-        <Link href="/services" passHref>
-          <Button size="lg">Explore Our Collection</Button>
-        </Link>
+        <p className="text-xl mb-8">Exquisite Muslim Women&apos;s Clothing and Care Services</p>
+        <Button asChild size="lg">
+          <Link href="/services">Explore Our Collection</Link>
+        </Button>
       </section>
 
       <section className="grid md:grid-cols-2 gap-12 items-center mb-16">
@@ -55,9 +55,9 @@ export default function Home() {
       <section className="text-center">
         <h2 className="text-3xl font-semibold mb-4">Elevate Your Wardrobe</h2>
         <p className="mb-8">Discover the perfect blend of tradition and style with ABAYA</p>
-        <Link href="/contact" passHref>
-          <Button size="lg">Contact Us Now</Button>
-        </Link>
+        <Button asChild size="lg">
+          <Link href="/contact">Contact Us Now</Link>
+        </Button>
       </section>
     </div>
   );
