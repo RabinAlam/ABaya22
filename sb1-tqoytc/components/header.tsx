@@ -16,18 +16,18 @@ const Header = () => {
             ABAYA
           </Link>
           <div className="flex items-center space-x-4">
-            <Link href="/" passHref>
-              <Button variant={pathname === '/' ? 'default' : 'ghost'}>Home</Button>
-            </Link>
-            <Link href="/services" passHref>
-              <Button variant={pathname === '/services' ? 'default' : 'ghost'}>Services</Button>
-            </Link>
-            <Link href="/about" passHref>
-              <Button variant={pathname === '/about' ? 'default' : 'ghost'}>About</Button>
-            </Link>
-            <Link href="/contact" passHref>
-              <Button variant={pathname === '/contact' ? 'default' : 'ghost'}>Contact</Button>
-            </Link>
+            <Button asChild variant={pathname === '/' ? 'default' : 'ghost'}>
+              <Link href="/">Home</Link>
+            </Button>
+            <Button asChild variant={pathname === '/services' ? 'default' : 'ghost'}>
+              <Link href="/services">Services</Link>
+            </Button>
+            <Button asChild variant={pathname === '/about' ? 'default' : 'ghost'}>
+              <Link href="/about">About</Link>
+            </Button>
+            <Button asChild variant={pathname === '/contact' ? 'default' : 'ghost'}>
+              <Link href="/contact">Contact</Link>
+            </Button>
             <ModeToggle />
           </div>
         </div>
